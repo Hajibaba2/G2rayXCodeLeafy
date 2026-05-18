@@ -78,7 +78,7 @@ check_for_updates() {
     draw_logo
     
     local tmp_file="/tmp/g2ray_remote.sh"
-    curl -s -m 5 -L "https://raw.githubusecontent.com/Code-Leafy/G2rayXCodeLeafy/main/g2ray.sh" -o "$tmp_file" &
+    curl -s -m 5 -L "https://raw.githubusercontent.com/Code-Leafy/G2rayXCodeLeafy/main/g2ray.sh" -o "$tmp_file" &
     local pid=$!
     
     local frames=("⠋" "⠙" "⠹" "⠸" "⠼" "⠴" "⠦" "⠧" "⠇" "⠏")
